@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Akshar', sans-serif;
+    font-family: 'Oswald', sans-serif;
+}
+
+.conte{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url(/Web-Designer-x-Web-Developer-c-sem-sombra.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteiner{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px gray;
+    width: 450px;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.caixa{
+    background-color: #eee;
+    padding: 20px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.form{
+    padding: 20px;
+}
+
+.caixa-form{
+    position: relative;
+    padding-bottom: 20px;
+}
+
+.caixa-form label{
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.caixa-form input{
+    border: 2px solid #eee;
+    display: block;
+    border-radius: 10px;
+    font-size: 15px;
+    width: 100%;
+    padding: 10px;
+
+}
+
+.caixa-form i {
+    position: absolute;
+    top:45px;
+    right: 10px;
+    visibility: hidden;
+}
+
+.caixa-form small{
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    visibility: hidden;
+}
+
+.form button{
+    background-color: #00bfff;
+    border: 2px solid #00bfff;
+    font-weight: 800;
+    color: white;
+    font-size: 22px;
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.caixa-form.sucess input{
+    border-color: #00ff00;
+}
+
+.caixa-form.error input {
+    border-color: red;
+}
+
+.caixa-form.caixa-form.sucess i.bx-check-circle{
+    color: #00ff00;
+    visibility: visible;
+}
+
+.caixa-form.error i.bx-error-circle{
+    color: red;
+    visibility: visible;
+}
+
+.caixa-form.error small{
+    visibility: visible;
+    color: red;
+}
